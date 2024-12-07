@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+
+prices = [20,30,50,40,10,80,90,70,60,120,55]
+plt.hist(prices,bins=5,color='yellow',edgecolor = 'black')
+plt.title('Food Prices')
+plt.xlabel=('FOOd')
+plt.ylabel=('PRICES')
+plt.show()
